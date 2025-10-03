@@ -1,3 +1,5 @@
+// https://judge.phitron.io/topics/cm5z7wa3u0007p301xbzdqkuk/cm832etvp004xr0010prtvx7m
+
 #include<stdio.h>
 int main(){
     int n;
@@ -6,4 +8,5 @@ int main(){
     {
         printf("I Love Practice\n");
     }
+
 }
