@@ -14,15 +14,15 @@ int main (){
 
 
     // printf("Enter three numbers print +-,*,/,% -\n");
-    // int a, b, c ;
-    // scanf("%d %d %d", &a, &b, &c ) ;
-    // printf("%d %d %d\n", a, b, c);
+    //int a, b, c ;
+    //scanf("%d %d %d", &a, &b, &c ) ;
+    //printf("%d %d %d\n", a, b, c);
 
     // printf("%d\n", a + b + c);
     // printf("%d\n", a - b - c);
     // printf("%d\n", a * b * c);
     // printf("%d\n", a / b / c);
-    // printf("%d\n", a % b % c);
+    //printf("%d\n", a % b % c);
 
 
     // printf("Sum of three numbers-\n");
@@ -86,6 +86,31 @@ int main (){
     // printf("%d", reminder);
 
 
+    // char ch = 'A';
+    // printf("%c", ch + 1);
+
+    // printf("Prints %s and %s", "on", "multiple lines");
+
+
+ 
+    // printf("This is a backslash: \\");
+
+    // printf("Size of double: %lu", sizeof(double));
+
+    // float num = 10 / 3;
+    // printf("%f\n", num);
+
+
+    int a, b;
+    scanf("%d %d", &a, &b) ;
+    // printf("%d %d %d\n", a, b);
+
+    // printf("sum : %d\n", a + b);
+    // printf("substation : %d\n", a - b);
+    // printf("multiple :%d\n", a * b);
+    printf("divisor: %d\n", a / b);
+    printf("mod:%d\n", a % b);
+    
 
     return 0; //Exit
 
