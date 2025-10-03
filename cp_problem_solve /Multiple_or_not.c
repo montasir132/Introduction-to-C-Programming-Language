@@ -1,3 +1,4 @@
+// https://judge.phitron.io/topics/cm5z7wa3u0007p301xbzdqkuk/cm82x5rnr003er00114f9qwvx
 #include<stdio.h>
 int main(){
     int a, b;
@@ -15,3 +16,4 @@ int main(){
         printf("No");
     }
 }
+
