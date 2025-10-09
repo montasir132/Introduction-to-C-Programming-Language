@@ -1,7 +1,7 @@
 // header
-#include<stdio.h>
+// #include<stdio.h>
 // main
-int main (){
+// int main (){
 
 
     // int a = 10;
@@ -101,17 +101,62 @@ int main (){
     // printf("%f\n", num);
 
 
-    int a, b;
-    scanf("%d %d", &a, &b) ;
+    // int a, b;
+    // scanf("%d %d", &a, &b) ;
     // printf("%d %d %d\n", a, b);
 
     // printf("sum : %d\n", a + b);
     // printf("substation : %d\n", a - b);
     // printf("multiple :%d\n", a * b);
-    printf("divisor: %d\n", a / b);
-    printf("mod:%d\n", a % b);
+    // printf("divisor: %d\n", a / b);
+    // printf("mod:%d\n", a % b);
     
 
-    return 0; //Exit
+    // int a;
+    // printf("Enter a\n number:\n");
+    // printf("Enter a\t tab\n");
+    // printf("Enter a \"montasir\"\n");
+    // printf("Enter a\b tab");
 
-} 
+
+//     int n;
+//     scanf("%d", &n);
+//     for(int i=1; i<=n; i++)
+//     {
+//         if(i % 5 == 0){
+//             printf("%d Yes\n", i);
+//         }else{
+//             printf("%d No\n", i);
+//         }
+//     }
+//     return 0; //Exit
+
+// } 
+
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int n;
+//     scanf("%d", &n);
+//     if(n==1999){
+//         printf("Correct");
+//     }else{
+//         printf("Wrong");
+//     }
+//     return 0;
+// }
+
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    for(int i=1; i<=12; i++)
+    {
+        printf("%d * %d = %d\n", n, i, n * i);
+    }
+    return 0;
+}
