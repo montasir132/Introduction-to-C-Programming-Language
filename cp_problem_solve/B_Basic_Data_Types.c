@@ -1,12 +1,12 @@
-#include<stdio.h>
+// https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/B
+#include <stdio.h>
 int main()
 {
     int a;
-    long long int b;
-    char ch;
-    float f;
-    double d;
-    scanf("%d %lld %c %f %lf",&a, &b, &ch, &f, &d);
-    printf("%d\n%lld\n%c\n%.2f\n%.1lf\n", a, b, ch, f, d);
-    return 0;
+    long long b;
+    char c;
+    float d;
+    double e;
+    scanf("%d %lld %c %f %lf", &a, &b, &c, &d, &e);
+    printf("%d\n%lld\n%c\n%.2f\n%.1f\n", a, b, c, d, e);
 }
